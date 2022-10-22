@@ -1,0 +1,15 @@
+If you run into vulnerabilities when you run npm install do the following in the CL:
+
+npm install -g npm-check-updates
+
+
+
+ncu -u --packageFile package.json
+
+
+
+npm install
+
+
+
+npm start
